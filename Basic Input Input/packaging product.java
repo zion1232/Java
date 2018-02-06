@@ -17,7 +17,7 @@
 		System.out.println("enter Box_height");
 		Box_height=s.nextDouble();
 		
-		Box_size =  (Box_width*Box_height + Box_width*Box_depth + Box_height*Box_depth) * 2 * EXTRA_SIZE;
+		Box_size =  (Box_width*Box_height + Box_width*Box_depth + Box_height*Box_depth) * 2 * EXTRA_SIZE;/*You have to double it twice because it's a box with 6 corners*/
 		total_price = price + Box_size * PRICE_FOR_PAPER;
 		System.out.println("You need to pay " + total_price + " NIS");
 
@@ -25,3 +25,4 @@
 	}
 
 }
+/*Calculate the price of a packaging product box and consider bottles including taxes*/
