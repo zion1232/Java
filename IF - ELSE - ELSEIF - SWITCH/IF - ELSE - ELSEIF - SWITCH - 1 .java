@@ -1,4 +1,4 @@
-
+/*switch*/
 	public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
 	int num_rooms, price =0 , duplex;
@@ -31,3 +31,7 @@
 	}
 
 }
+
+/*if-else*/
+
+
