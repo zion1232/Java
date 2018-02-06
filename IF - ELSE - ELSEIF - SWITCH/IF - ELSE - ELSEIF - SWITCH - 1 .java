@@ -34,4 +34,34 @@
 
 /*if-else*/
 
+	public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	int num_rooms, price =0 ;
+			int duplex;
+	System.out.println("enter the num of rooms (3 - 4 - 5)");
 
+	num_rooms=s.nextInt();
+
+	if (num_rooms == 3)
+
+	{
+		price = 130;
+	}
+	else if (num_rooms == 4)
+	{
+		price = 150;
+	}
+	else 
+
+	{
+
+		System.out.println("is duplex?");
+		duplex=s.nextInt();
+		price = duplex==1 ? 200 : 180;
+
+	}
+
+	System.out.println("please py me " + price +" nis ");
+
+}
+}
