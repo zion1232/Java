@@ -12,7 +12,7 @@ public class a1 {
 		System.out.println("You need to pay " + p + " NIS");
 
 		
-		
+		/*Exercise to buy tickets*/
 
 	}
 
