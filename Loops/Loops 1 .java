@@ -1,3 +1,5 @@
+	@@@Print a number from the end to the beginning@@@
+
 	Scanner s = new Scanner(System.in);
 	int num, temp, newnumber=0;
 	System.out.println("Enter number ");
@@ -15,6 +17,7 @@
 }
 	
 		###add the number$$$
+		
 		Scanner s = new Scanner(System.in);
 		int num,addnumber , newnumber = 0;
 		System.out.println("Enter number ");
@@ -27,6 +30,7 @@
 	}
 	}
 		$$$only the odd  number$$$
+		
 		int num, temp, newnumber = 0, location = 1;
 		Scanner s = new Scanner(System.in);
 
