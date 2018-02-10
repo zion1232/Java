@@ -1,3 +1,6 @@
+binary number
+	
+
 	Scanner s = new Scanner(System.in);
 	int num, loc = 1, binary = 0;
 	System.out.println("Enter number ");
