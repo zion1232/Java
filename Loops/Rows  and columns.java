@@ -1,4 +1,5 @@
-	Scanner s = new Scanner(System.in);
+	Rows and columns
+Scanner s = new Scanner(System.in);
 		int i, j, r ,c;
 		System.out.println("enter number of Rows  and columns");
 		r=s.nextInt();
