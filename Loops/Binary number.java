@@ -1,16 +1,14 @@
-Scanner s = new Scanner(System.in);
-		int i, j, r ,c;
-		System.out.println("enter number of Rows  and columns");
-		r=s.nextInt();
-		c=s.nextInt();
-		for ( i=0;i<r;i++){
-			for( j=0;j<c;j++){
-			System.out.print("*");
-			}
-			System.out.println();
-			}
+	Scanner s = new Scanner(System.in);
+	int num, loc = 1, binary = 0;
+	System.out.println("Enter number ");
+	num=s.nextInt();
+	while (num>0)
+	{
+		int numleft = num % 2;
+		num /= 2;
+		binary += loc*numleft;
+		loc *= 10;
 	}
-		
-		
+	System.out.println( binary);
 	}
-		
+}
